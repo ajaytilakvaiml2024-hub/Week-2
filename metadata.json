@@ -1,0 +1,5 @@
+{
+  "name": "Smart Waste Segregation System",
+  "description": "An intelligent web application that uses Gemini to classify uploaded images of waste into categories like Plastic/Glass and Organic/Inorganic to promote proper waste disposal.",
+  "requestFramePermissions": []
+}
