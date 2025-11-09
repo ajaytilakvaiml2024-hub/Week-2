@@ -1,20 +1,5 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+The Smart Waste Detection System is an AI-powered solution designed to automatically identify and classify waste into various categories such as plastic, paper, metal, glass, and organic materials. Using the YOLOv8 (You Only Look Once) deep learning model, the system detects waste objects in real-time from images or live video feeds.
 
-# Run and deploy your AI Studio app
+This project aims to support smart city initiatives by improving waste management efficiency and promoting recycling. The model is trained on labeled waste datasets (like TACO or TrashNet) and fine-tuned using transfer learning to achieve high detection accuracy.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1yYqdrC6BlgMgOpc246AKWhJD10tI46ao
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+A simple web interface (Streamlit) or IoT-based setup can be integrated to visualize detections and automate sorting in smart bins. The system’s real-time recognition helps reduce manual effort, enhances cleanliness monitoring, and supports sustainable waste segregation practices.
